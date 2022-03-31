@@ -1,0 +1,13 @@
+D:\visual_Studio_project\CostPurchase\CostPurchase\bin\Debug\CostPurchase.exe.config
+D:\visual_Studio_project\CostPurchase\CostPurchase\bin\Debug\CostPurchase.exe
+D:\visual_Studio_project\CostPurchase\CostPurchase\bin\Debug\CostPurchase.pdb
+D:\visual_Studio_project\CostPurchase\CostPurchase\obj\Debug\ToyStore.csproj.SuggestedBindingRedirects.cache
+D:\visual_Studio_project\CostPurchase\CostPurchase\obj\Debug\CostPurchase.FormStart.resources
+D:\visual_Studio_project\CostPurchase\CostPurchase\obj\Debug\CostPurchase.FormHelp.resources
+D:\visual_Studio_project\CostPurchase\CostPurchase\obj\Debug\CostPurchase.FormStore.resources
+D:\visual_Studio_project\CostPurchase\CostPurchase\obj\Debug\CostPurchase.Properties.Resources.resources
+D:\visual_Studio_project\CostPurchase\CostPurchase\obj\Debug\ToyStore.csproj.GenerateResource.cache
+D:\visual_Studio_project\CostPurchase\CostPurchase\obj\Debug\ToyStore.csproj.CoreCompileInputs.cache
+D:\visual_Studio_project\CostPurchase\CostPurchase\obj\Debug\CostPurchase.exe
+D:\visual_Studio_project\CostPurchase\CostPurchase\obj\Debug\CostPurchase.pdb
+D:\visual_Studio_project\CostPurchase\CostPurchase\obj\Debug\ToyStore.csproj.AssemblyReference.cache
