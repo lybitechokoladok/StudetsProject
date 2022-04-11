@@ -147,6 +147,7 @@
             this.Name = "FormStore";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Магазин";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormStore_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

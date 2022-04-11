@@ -81,11 +81,6 @@ namespace CostPurchase
 
         private void buttonExit_Click(object sender, EventArgs e)
         {
-            priceResult = _priceList.Select(x => x.ToString()).ToArray();
-
-            File.WriteAllLines("D:\\visual_Studio_project\\CostPurchase\\CostPurchase\\bin\\Debug\\GoodsList.txt", _checkBoxContent);
-            File.WriteAllLines("D:\\visual_Studio_project\\CostPurchase\\CostPurchase\\bin\\Debug\\Pricelist.txt", priceResult);
-
            Close();
         }
 
@@ -111,8 +106,16 @@ namespace CostPurchase
             }
             else 
             {
-                MessageBox.Show("Не ве данные внесены", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Не вcе данные внесены", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void FormStore_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            priceResult = _priceList.Select(x => x.ToString()).ToArray();
+
+            File.WriteAllLines("GoodsList.txt", _checkBoxContent);
+            File.WriteAllLines("Pricelist.txt", priceResult);
         }
     }
 }
